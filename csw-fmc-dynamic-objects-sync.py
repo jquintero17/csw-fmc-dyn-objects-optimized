@@ -439,7 +439,7 @@ def main():
     
     # CSW arguments
     parser.add_argument("csw_cluster", help="CSW cluster hostname/IP")
-    parser.add_argument("csw_scope", help="CSW scope name")
+    parser.add_argument("csw_scope", help="The Root Scope. This is the tenant name for SaaS clusters. For on-prem, this might be 'Default', 'Root' or the tenant name in use.")
     
     # FMC arguments  
     parser.add_argument("fmc_ip", help="FMC IP address")

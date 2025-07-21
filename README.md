@@ -45,7 +45,7 @@ python csw-fmc-dynamic-objects-sync.py <csw_cluster> <csw_scope> <fmc_ip> <fmc_u
 
 ### Parameters
 - `csw_cluster`: CSW cluster hostname or IP address
-- `csw_scope`: CSW scope name to query
+- `csw_scope`: The Root Scope. This is the tenant name for SaaS clusters. For on-prem, this might be "Default", "Root" or the tenant name in use.
 - `fmc_ip`: FMC IP address  
 - `fmc_username`: FMC username
 - `fmc_password`: FMC password
